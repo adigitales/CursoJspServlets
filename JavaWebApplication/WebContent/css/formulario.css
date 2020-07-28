@@ -1,0 +1,104 @@
+.back a{
+	display: inline-block;
+	padding: 10px;
+	width: 150px;
+	background: #246eb9;
+	color:#fff;
+	text-decoration: none;
+	text-align: center
+}
+
+.back a:hover{
+	opacity: .8;
+}
+
+.back{
+	width: 50%;
+	margin:20px auto;
+}
+ 
+.contenedor-registro-usuario{
+	width: 50%;
+	border: 1px solid rgba(0,0,0,.5);
+	margin:20px auto;
+}
+.contenedor-registro-usuario .tit-reg-user{
+	text-align:center;
+}
+.contenedor-registro-usuario .tit-reg-user span{
+	font-size: 40px;
+	font-family: Arial;
+	display: block;
+	padding: 20px;
+}
+.contenedor-registro-usuario main{
+	/*padding: 20px;
+	margin: 20px;*/
+}
+.contenedor-registro-usuario input[type="text"], 
+.contenedor-registro-usuario input[type="email"],
+.contenedor-registro-usuario input[type="password"]{
+	display:block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #457b9d;
+	border-radius: 3px;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.contenedor-registro-usuario input[type="radio"]{
+	width:15px;
+	height: 15px;
+	margin-left: 10px;
+}
+
+.contenedor-registro-usuario .field-pais,
+.contenedor-registro-usuario .field-roles{
+	margin-top:20px;
+}
+.contenedor-registro-usuario .field-pais legend,
+.contenedor-registro-usuario .field-sexo legend,
+.contenedor-registro-usuario .field-roles legend{
+	font-family: Arial;
+	font-size: 20px;
+	padding: 5px;
+}
+.div-sexo{
+	padding:5px;
+}
+.contenedor-registro-usuario .div-pais,
+.contenedor-registro-usuario .div-roles{
+	padding:10px;
+}
+
+.contenedor-registro-usuario .select-pais,
+.contenedor-registro-usuario .select-roles{
+	width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.contenedor-registro-usuario .div-sexo span,
+.contenedor-registro-usuario .div-pais span,
+.contenedor-registro-usuario .div-roles span{
+	display:inline-block;
+	padding:20px;
+	font-family: Arial;
+	font-size: 22px;
+}
+
+.contenedor-registro-usuario input[type="submit"]{
+	display:block;
+	padding:20px;
+	margin:20px auto;
+	width:50%;
+	font-size: 20px;
+	letter-spacing: 3px;
+	background: #246eb9;
+	color:#fff;
+}
+.contenedor-registro-usuario input[type="submit"]:hover{
+	opacity: .8;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+<link rel="stylesheet" href="../css/formulario.css" />
+</head>
+<body>
+
+<div class="contenedor">
+	<form action="/JavaWebApplication/FormularioServlet" method="post">
+		<header>
+			<span>Registro Usuario</span>
+		</header>
+		<main>
+			<input type="text" name="nomCompleto" placeholder="Nombre Completo" />
+			<input type="email" name="email" placeholder="E-mail" />
+			<input type="password" name="password" placeholder="Contraseña" />
+			<fieldset class="field-sexo">
+				<legend>Sexo</legend>
+				<div class="div-sexo">
+					<input id="m" type="radio" name="sexo" value="M" checked="checked"/>
+					<label for="m">Masculino</label>
+					<input id="f" type="radio" name="sexo" value="F"/>
+					<label for="f">Femenino</label>
+				</div>
+			</fieldset>
+			
+			<fieldset class="field-pais">
+				<legend>País Origen</legend>
+				<div class="div-pais">
+					<select class="select-pais" name="pais" id="pais">
+						<option class="class-pais" value="MX">México</option>
+						<option class="class-pais" value="ES">España</option>
+						<option class="class-pais" value="AR">Argentina</option>
+						<option class="class-pais" value="EU">EU</option>
+					</select>
+				</div>
+			</fieldset>
+			<!-- 
+			<fieldset class="field-hobbies">
+			<legend>Hobbies</legend>
+				<input id="piano" type="checkbox" name="hobbie" value="piano" />
+				<label for="piano">Piano</label>
+				<input id="futbol" type="checkbox" name="hobbie" value="futbol" />
+				<label for="futbol">futbol</label>
+				<input id="videojuegos" type="checkbox" name="hobbie" value="videojuegos" />
+				<label for="videojuegos">videojuegos</label>
+				<input id="gym" type="checkbox" name="hobbie" value="gym" />
+				<label for="gym">gym</label>
+			</fieldset>
+			 -->
+			<input type="submit"  value="Enviar"/>
+		</main>
+	
+	</form>
+</div>
+</body>
+</html>

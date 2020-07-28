@@ -1,0 +1,18 @@
+<Context>
+
+<Resource name="jdbc/curso_java_web_db" auth="Container" type="javax.sql.DataSource"
+               maxActive="500" maxIdle="30" maxWait="120000"
+               username="artistas_user" password="Password123%@" driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/curso_java_web_db?noAccessToProcedureBodies=true&amp;useTimezone=true&amp;serverTimezone=UTC"
+               factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+               removeAbandoned="false"
+	           removeAbandonedTimeout="60"
+	           logAbandoned="true"	           
+	           validationQuery="/* ping */"
+	           minEvictableIdleTimeMillis="3600000"
+	           timeBetweenEvictionRunsMillis="1800000"
+	           numTestsPerEvictionRun="10"
+	           testWhileIdle="true"
+	           testOnBorrow="true"
+	           testOnReturn="false"/>
+</Context>
